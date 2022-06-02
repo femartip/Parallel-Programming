@@ -1,2 +1,11 @@
-# Parallel-Programming
- Paralelization solutions to some problems in C, using MPI and OMP library.
+# Paralelization solutions in C
+  
+  
+  
+  
+  
+  
+  
+  
+  OpenMP: https://www.openmp.org/
+  MPI: https://www.open-mpi.org/
