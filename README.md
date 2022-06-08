@@ -35,9 +35,17 @@ For all the above results, we have used static planification as is the one that 
   
   OpenMP: https://www.openmp.org/
 ## MPI
-  
-  
-  
-  
+  ### Ping-Pong
+  - 
+  mpi.c  
+  ### Newton Fractals
+  - 
+  newton.c   
+  ### Matrix-Vector Product
+  - 
+  mxv1.c, mxv2.c
+  ### System of Linear Ecuations
+  - 
+  sistbf.c  
   
   MPI: https://www.open-mpi.org/
