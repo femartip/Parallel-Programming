@@ -2,7 +2,7 @@
   
   This repository is a collection of various solutions for problems trying to solve them with multiprocessing. All are done in C language, using two open source libraries: OpenMP and MPI.
   
-  #OpenMP
+#OpenMP   /n
   In this section, the code tries to solve a rnsomware that shuffles images so they are unusable. This rasomware interchanges rows and columns randomly.
   The code tries to search first by rows, then by columns, which pixels are the most similar for each row/column and rearenges them. An example is shown above;
   
