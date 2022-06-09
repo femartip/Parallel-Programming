@@ -35,17 +35,27 @@ For all the above results, we have used static planification as is the one that 
   
   OpenMP: https://www.openmp.org/
 ## MPI
+  ### PI
+  - Calculates PI using the above equation, where each process calculates a part of the integral.
+  ![image](https://user-images.githubusercontent.com/99536660/172791346-1239dc5f-a427-47e4-9920-4e0c1e8547b3.png)   
+  mpi_pi.c
   ### Ping-Pong
-  - 
-  mpi.c  
+  - Usual ping-pong program wich calculates the time it takes a massage to go from its sender to its receiver. This is creates by two processes (sender & receiver)      
+  ping-pong.c  
   ### Newton Fractals
-  - 
-  newton.c   
+  - Program that generates newton fractals. The first one is an implementation on master-workers, where the master only tells what the workers shouls work on. The        second aproach is also an implementation of master-workers, however in this case, the master also works.    
+  ![image](https://user-images.githubusercontent.com/99536660/172793181-3fdff5fc-e008-4987-9118-50217b69b345.png)    
+
+  newton_fractals.c, newton_fractals1.c  
   ### Matrix-Vector Product
-  - 
+  - Calculates the matrix-vector product. First by allocating blocks of rows of M. Secondly by allocating blocks of columns.
+  ![image](https://user-images.githubusercontent.com/99536660/172793414-25b06181-62ef-4248-b3bc-39221c6018de.png)
+  ![image](https://user-images.githubusercontent.com/99536660/172794736-efab7232-1d07-4ca9-9c34-c0ca8c80457c.png)
+  ![image](https://user-images.githubusercontent.com/99536660/172794776-89e1f927-3f6b-4d1f-997e-93eefc77b3bc.png)
+
   mxv1.c, mxv2.c
   ### System of Linear Ecuations
-  - 
-  sistbf.c  
+  - Program that calculates a linear ecuation system. The first program does this by allocating blocks of rows. The second one does this by a cyclic distribution of      the rows.       
+  sistbf.c, sistcf
   
   MPI: https://www.open-mpi.org/
